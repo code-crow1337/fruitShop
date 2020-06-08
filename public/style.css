@@ -1,0 +1,126 @@
+html, *{
+  margin: 0;
+}
+h1,h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2.0rem;
+  margin-bottom: 2rem;
+}
+p{
+  margin-top:1rem ;
+}
+body{
+  width: 95vw;
+  margin: 0 auto;
+  -webkit-box-shadow: 8px 10px 17px -4px rgba(158,158,158,0.89); 
+  box-shadow: 8px 10px 17px -4px rgba(158,158,158,0.89);
+  font-family: 'Athiti', sans-serif;;
+}
+.header{
+  display:flex;
+  background-color: #FF8465;
+  /* background-color: #222C36; */
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+.logo{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color:white;
+  -webkit-text-stroke: 1px #222C36;
+}
+.header nav {
+  display: flex; 
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: space-evenly;
+}
+/* .header ul > li  {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color:white;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-right:1rem;
+} */
+.header ul >li:hover {
+  background-color: white;
+}
+nav ul a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:white;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding:0 1rem;
+}
+nav ul a:link {
+  color: white;
+}
+nav ul a:visited  {
+  color: white;
+}
+nav ul a:hover {
+  color: #222C36;
+  background-color: white;
+}
+/*MAIN CONTENT*/
+.content{
+  display: flex;
+}
+.image-left{
+  height:100vh;
+  width: 50vw;
+  background-image: url(./img/monika-grabkowska-qSkWlOBHia0-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.image-middle{
+  border: 24px solid white;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-image: url(./img/jess-bailey-0uns8eQn_g8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: 14% 11%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top:55vh;
+  left: 48vw;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 9rem;
+  padding-right: 4rem;
+  width: 40vw;
+  position: relative;
+}
+
+.text-orange{
+  color: #FF8465;
+}
+.copy-right{
+  position: absolute;
+  font-size: 1rem;
+  color: #FF8465;
+  right:3rem;
+  bottom: 1rem;
+}

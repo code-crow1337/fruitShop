@@ -1,7 +1,7 @@
 # fruitShop
 Building a fictional fruitshop 🍉 . Using it to learn CSS/HTML and Node with Express
 
-## Screenshout on the homepage
+## Screenshot of the homepage
 ![Screenshot](screenshot_homepage.png)
 
 Stock images taken from [Unsplash](https://unsplash.com/)

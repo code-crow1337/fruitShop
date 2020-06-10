@@ -1,5 +1,5 @@
 # fruitShop
-Building a fictional fruitshop 🍉 . Using it to learn CSS/HTML, Node, Express. 
+Building a fictional fruitshop 🍉 . Using it to learn CSS/HTML, Node and Express. 
 
 ## Screenshot of the website
 ### Homepage

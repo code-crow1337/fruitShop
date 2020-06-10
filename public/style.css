@@ -83,13 +83,10 @@ nav ul a:hover {
 /*MAIN CONTENT*/
 .content{
   display: flex;
-}
-.image-left{
-  height:100vh;
-  width: 50vw;
-  background-image: url(./img/monika-grabkowska-qSkWlOBHia0-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-position: left;
+  flex-direction: row;
+  min-height: 90vh;
+  overflow: hidden;
+  justify-content: space-between;
 }
 .image-middle{
   border: 24px solid white;
@@ -107,20 +104,74 @@ nav ul a:hover {
 .main{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-left: 9rem;
-  padding-right: 4rem;
+  justify-content: space-evenly;
   width: 40vw;
+  max-height:83vh;
   position: relative;
 }
-
 .text-orange{
   color: #FF8465;
 }
 .copy-right{
-  position: absolute;
+  align-self: flex-end;
   font-size: 1rem;
   color: #FF8465;
-  right:3rem;
-  bottom: 1rem;
+}
+/*IMAGE LEFT ABOUT*/
+.image-left{
+  max-height: 4rem;
+}
+.image-left img{
+  width: 44vw;
+  max-height: 100%;
+  overflow: hidden;
+}
+.image-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  max-height: 75vh;
+  overflow: hidden;
+  position: relative;
+}
+.image-holder{
+  width: 20vw;
+  height: 34rem;
+  overflow: hidden;
+}
+.full-image{
+  width: 50vw;
+  height: auto;
+}
+.half-siz-image{
+  min-width: 24vw;
+  height: 68vh;
+  background-color: #FF8465;
+}
+.image-behind{
+  position: absolute;
+  right: 4vh;
+  z-index: -1;
+}
+.margin-ts{
+  margin-top: 2rem;
+}
+.margin-bs{
+  margin-bottom: 2rem;
+}
+.margin-ls{
+  margin-left: 2rem;
+}
+.margin-lm{
+  margin-left: 5rem;
+}
+.margin-tm{
+  margin-top: 5rem;
+}
+.pad-bs{
+  padding-bottom: 2rem;
+}
+.pad-all{
+  padding: 2rem;
 }

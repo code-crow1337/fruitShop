@@ -8,6 +8,6 @@ Stock images taken from [Unsplash](https://unsplash.com/)
 
 Homepage stock images:  
 
-- Blueberries Photo by Jess Bailey on Unsplash [Unsplash](https://unsplash.com/photos/0uns8eQn_g8)
-- Clementines Photo by Monika Grabkowska on Unsplash [Unsplash](https://unsplash.com/photos/qSkWlOBHia0)
+- Blueberries Photo by Jess Bailey on [Unsplash](https://unsplash.com/photos/0uns8eQn_g8)
+- Clementines Photo by Monika Grabkowska on [Unsplash](https://unsplash.com/photos/qSkWlOBHia0)
 

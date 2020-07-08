@@ -12,5 +12,5 @@ Homepage stock images:
 - Blueberries Photo by Jess Bailey on [Unsplash](https://unsplash.com/photos/0uns8eQn_g8)
 - Clementines Photo by Monika Grabkowska on [Unsplash](https://unsplash.com/photos/qSkWlOBHia0)
 
-### Aboutpage
+### About page
 ![Screenshot](screenshot_aboutpage.png)
